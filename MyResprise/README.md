@@ -5,7 +5,7 @@
 ##### 五级标题
 ###### 六级标题
 
-##字体修饰
+## 字体修饰
 
 **粗体字体特效**<br><br>
 *斜体字体特效*<br><br>
@@ -16,7 +16,7 @@
 还有繁多的计算机储备知识<br>
 某段正文中包含修饰符，导致效果异常，可以通过\转义符解决<br>
 
-##引用
+## 引用
 > 一级引用
 >> 二级引用
 >>> 三级引用
@@ -52,10 +52,37 @@
 2. 地理
 3. 化学
 
-##表格插入
+## 表格插入
 
 游戏名|游戏价格|游戏排行
 ---|:-:|---:
 Plants|free|Top1
 PUBG|78$|Top2
 gta5|10$|Top3
+
+## 超链接
+[Bilibili弹幕网](http://www.bilibili.com "点击进入B站") 
+[百度搜索](www.baidu.com "点击进入百度")
+
+## 插入代码片段
+```c
+#include<stdio.h>
+int main()
+{
+	printf("测试代码");
+	return 0;
+}
+```
+
+```cpp
+#include<iostream>
+using namespace std;
+```
+
+```bash
+touch files;
+echo "回显内容"
+reboot
+```
+## 插入图片
+![测试图片](C://Users//80444//Desktop//xx.jpg)
